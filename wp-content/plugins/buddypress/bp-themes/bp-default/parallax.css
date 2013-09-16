@@ -1,0 +1,40 @@
+#body {z-index:-10;}
+#parallax-container {width:100%; height:20000px;} 
+
+#sun {position:fixed; top:-500px; right:0px; z-index:1;}
+
+#night-bg {z-index:0; position:fixed; width:100%; height:1500px; top:-2000px; left:0px;
+  background-repeat: repeat-x; 
+  /* Safari 4-5, Chrome 1-9 */ 
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#01021b), to(#10c1fb)); 
+  /* Safari 5.1, Chrome 10+ */ 
+  background: -webkit-linear-gradient(top, #01021b, #10c1fb); 
+  /* Firefox 3.6+ */ 
+  background: -moz-linear-gradient(top, #01021b, #10c1fb); 
+  /* IE 10 */ 
+  background: -ms-linear-gradient(top, #01021b, #10c1fb); 
+  /* Opera 11.10+ */ 
+  background: -o-linear-gradient(top, #01021b, #10c1fb); }
+}
+.stars {position:absolute; width:100%; height:100%; top:0px; left:0px;}
+#moon {position:fixed; top:-1000px; left:-200px; z-index:0;}
+
+#hills {position:fixed; top:500px; left:0px; width:100%; height:1200px; z-index:50;}
+img.hills {min-height:100%; min-width:1000px; width:100%; height:auto; position:fixed; top:100px; left:0;}
+.day-hills {z-index:50;}
+.night-hills {opacity:0.0; z-index:51;}
+
+#dialogue-container {position:fixed; bottom:160px; left:0px; width:100%; height:200px; z-index:100; min-width:1000px;}
+.dialogue-bubble {width:300px; height:200px; display:none;}
+.dialogue-bubble-right {background:url('/wp-content/images/parallax/dialogue-bubble.png') no-repeat;}
+.dialogue-bubble-left {background:url('/wp-content/images/parallax/dialogue-bubble-left.png') no-repeat;}
+#young-dialogue {position:absolute; top:0px; left:20%;}
+#old-dialogue {position:absolute; top:0px; right:20%;}
+.dialogue-text {position:absolute; top:25px; left:25px; width:250px; height:110px; font-size:20px; font-family:'Apple Chancery'; color:#01407E; 
+	display:none; text-align:center; line-height:125%}
+
+#silh-container {position:fixed; bottom:0px; left:0px; width:100%; height:200px; z-index:99; min-width:1000px;}
+#silh-container #old-man {position:absolute; top:0px; right:20%;}
+#silh-container #young-man {position:absolute; top:0px; left:20%;}
+
+.cloud {display:none;}
