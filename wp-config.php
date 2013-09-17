@@ -18,13 +18,13 @@
 /** The name of the database for WordPress */
 define('WP_CACHE', true); //Added by WP-Cache Manager
 define( 'WPCACHEHOME', '/Users/tdcribb/bookofrelations/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
-define('DB_NAME', 'bor_new');
+define('DB_NAME', 'bookofrelations');
 
 /** MySQL database username */
-define('DB_USER', 'bookofrelations');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'B0r2013!');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 define('DB_HOST', '127.0.0.1');
